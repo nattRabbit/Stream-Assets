@@ -1,0 +1,45 @@
+{
+    "fontColor": {
+     "type": "colorpicker",
+     "label": "Font color",
+     "value": "rgb(254, 255, 254)",
+     "group": "Colors"
+   },
+   "firstBox": {
+     "type": "colorpicker",
+     "label": "Box 1st color",
+     "value": "rgb(245, 173, 183)",
+     "group": "Colors"
+   },
+   "secondBox": {
+     "type": "colorpicker",
+     "label": "Box 2nd color",
+     "value": "rgb(177, 213, 246)",
+     "group": "Colors"
+   },
+    "shadow1Color": {
+     "type": "colorpicker",
+     "label": "Shadow box 1st color",
+     "value": "rgba(156, 70, 115, 0.31)",
+     "group": "Colors"
+   },
+   "shadow2Color": {
+     "type": "colorpicker",
+     "label": "Shadow box 2nd color",
+     "value": "rgba(66, 109, 171, 0.36)",
+     "group": "Colors"
+   },
+    "opacity": {
+     "type": "number",
+     "label": "Opacity (0.0-1.0)",
+     "value": 0.98,
+     "max": 1,
+     "min": 0,
+     "group": "Setting"
+   },
+   "widgetAuthor": {
+     "type": "hidden",
+     "label": "Designed by YourStream"
+   }
+ 
+ }

@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: {{fontColor}};
+  opacity : {{opacity}};
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.box {
+  position: relative;
+  width:40vw;
+  height: 65vw;
+  margin: 1vw;
+  border-radius: 10vw;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+#box1 {
+  position: relative;
+  background: {{firstBox}};
+}
+#box2 {
+  position: relative;
+  background: {{secondBox}};
+}
+
+.day, .month , .seconds, .period{
+  font-size: 6vw;
+  margin: 3vw;
+}
+.day, .seconds {
+  position: relative;
+  align-self: start;
+  margin-left: 5vw;
+}
+.clock {
+  position: relative;
+  font-size: 24vw;
+  text-align: center;
+  align-self: center;
+  
+}
+
+.period, .seconds {
+  align-self: end;
+}
+
+.month, .period {
+  text-align: end;
+  position: relative;
+  margin-right: 5vw;
+}
+.hours {
+  filter: drop-shadow(3vw 1vw 1vw {{shadow1Color}});
+}
+.minutes {
+  filter: drop-shadow(3vw 1vw 1vw {{shadow2Color}});
+}
